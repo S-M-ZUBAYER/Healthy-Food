@@ -71,6 +71,7 @@ h1 {
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
+    box-shadow: 5px 5px 5px 2px gray;
 }
 
 .cook_pic {
@@ -84,9 +85,25 @@ h1 {
 
 .review {
     display: flex;
-    box-shadow: 10px 10px 30px gray;
+    box-shadow: 5px 5px 5px 2px gray;
     margin-bottom: 40px;
-    width: 80%;
-    margin-left: 20%;
-    margin-right: 20%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+
+}
+
+.review div {
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+}
+
+.conclution {
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin: 0px;
 }

@@ -21,7 +21,7 @@ h1 {
     margin-left: 5%;
     margin-right: 5%;
     width: 50%;
-    border: 2px solid gray;
+
 
 }
 
@@ -29,8 +29,16 @@ h1 {
     margin-left: 5%;
     margin-right: 5%;
     width: 80%;
-    border: 2px solid gray;
+}
 
+.Order_btn {
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    border-radius: 20PX;
+    padding: 5PX 10PX;
+    text-decoration: none;
+    border: none;
+    font-weight: 700;
 }
 
 .About {
@@ -42,7 +50,7 @@ h1 {
     margin-left: 10%;
     margin-right: 5%;
     width: 80%;
-    border: 2px solid gray;
+
 }
 
 .about_me {
@@ -50,8 +58,9 @@ h1 {
     margin-left: 5%;
     margin-right: 10%;
     width: 35%;
-    border: 2px solid gray;
+
 }
+
 
 .recipie {
     margin-bottom: 40px;
